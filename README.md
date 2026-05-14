@@ -178,3 +178,13 @@ The treatment effect decreased slightly from approximately 0.104 to 0.097, indic
 
 This robustness exercise demonstrates basic applied microeconometric workflow commonly used in development economics research.
 ![Robustness Plot](./graphs/robustness_plot.png)
+
+## Replication Findings
+
+The replication results suggest that participation in Village Savings and Loan Associations (VSLAs) has a positive effect on household access to loans.
+
+Across specifications, the treatment effect remained statistically significant at the 1% level, with estimated coefficients ranging from approximately 0.097 to 0.104.
+
+The robustness analysis indicates that the estimated treatment effect is relatively stable after controlling for observable household characteristics such as age, education, and female household headship.
+
+These findings are broadly consistent with the original paper’s argument that community-based financial institutions can improve financial inclusion among rural households.
