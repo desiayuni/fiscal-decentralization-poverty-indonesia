@@ -164,3 +164,17 @@ The figure below presents the estimated treatment effect of participation in Vil
 
 ![Professional Treatment Effect Plot](./graphs/professional_treatment_plot.png)
 
+## Robustness Analysis
+
+To assess the robustness of the treatment effect, additional household-level controls were included in the regression specification, including:
+
+- Household head age
+- Household head education
+- Female-headed household indicator
+
+The estimated treatment coefficient remained positive and statistically significant after including controls, suggesting that participation in Village Savings and Loan Associations (VSLAs) improves household access to loans.
+
+The treatment effect decreased slightly from approximately 0.104 to 0.097, indicating that the main findings are relatively stable across model specifications.
+
+This robustness exercise demonstrates basic applied microeconometric workflow commonly used in development economics research.
+![Robustness Plot](./graphs/robustness_plot.png)
