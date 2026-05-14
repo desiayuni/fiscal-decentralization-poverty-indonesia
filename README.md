@@ -133,46 +133,16 @@ The treatment group experienced a statistically significant increase in loan acc
 ---
 
 
-
 ## Repository Structure
 
-
-
 ```
-
-data/        -> raw datasets
-
-dofiles/     -> STATA do-files
-
-outputs/     -> regression outputs
-
-graphs/      -> figures and visualizations
-
-paper/       -> original research paper
-
-reports/     -> replication reports
-
-note/        -> replication notes and documentation
-
-
-
----
-
-
-
-## Replication Status
-
-Current progress:
-
-- Dataset successfully loaded and inspected
-
-- Key variables generated
-
-- Baseline balance tests explored
-
-- Initial treatment effect regression replicated
-
-- Clustered standard errors implemented
+data/       -> raw datasets
+dofiles/    -> STATA do-files
+outputs/    -> regression outputs
+graphs/     -> figures and visualizations
+paper/      -> original research paper
+reports/    -> replication reports
+note/       -> replication notes and documentation
 
 
 
@@ -186,7 +156,7 @@ Next steps:
 
 - Improve reproducibility workflow
 
----
+```
 
 ## Treatment Effect Visualization
 
