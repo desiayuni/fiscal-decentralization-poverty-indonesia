@@ -1,18 +1,18 @@
-\# VSLA Replication Project
+# VSLA Replication Project
 
 
 
-\## Overview
+## Overview
 
 This project replicates selected empirical results from the paper:
 
 
 
-\*\*Impact of Village Savings and Loans Associations: Evidence from a Cluster Randomized Trial\*\*
+**Impact of Village Savings and Loans Associations: Evidence from a Cluster Randomized Trial**
 
 
 
-published in the \*Journal of Development Economics (2016)\*.
+published in the *Journal of Development Economics (2016)*.
 
 
 
@@ -20,73 +20,73 @@ The project focuses on replicating treatment effect estimations using STATA and 
 
 
 
-\---
+---
 
 
 
-\## Research Question
+## Research Question
 
 Does participation in Village Savings and Loan Associations (VSLAs) improve access to loans and financial outcomes among rural households?
 
 
 
-\---
+---
 
 
 
-\## Methodology
+## Methodology
 
-\- Cluster Randomized Controlled Trial (RCT)
+- Cluster Randomized Controlled Trial (RCT)
 
-\- Intention-to-Treat (ITT) estimation
+- Intention-to-Treat (ITT) estimation
 
-\- OLS regression
+- OLS regression
 
-\- Clustered standard errors
+- Clustered standard errors
 
-\- Block fixed effects
-
-
-
-\---
+- Block fixed effects
 
 
 
-\## Data
-
-\- Household-level survey data
-
-\- Malawi
-
-\- Baseline and post-treatment observations
+---
 
 
 
-\---
+## Data
+
+- Household-level survey data
+
+- Malawi
+
+- Baseline and post-treatment observations
 
 
 
-\## Key Empirical Workflow
-
-\- Constructed reproducible research folder structure
-
-\- Loaded and inspected STATA datasets
-
-\- Generated transformed variables
-
-\- Conducted baseline balance checks
-
-\- Estimated treatment effects on loan access
-
-\- Interpreted causal inference results
+---
 
 
 
-\---
+## Key Empirical Workflow
+
+- Constructed reproducible research folder structure
+
+- Loaded and inspected STATA datasets
+
+- Generated transformed variables
+
+- Conducted baseline balance checks
+
+- Estimated treatment effects on loan access
+
+- Interpreted causal inference results
 
 
 
-\## Preliminary Findings
+---
+
+
+
+## Preliminary Findings
 
 The replication results suggest that participation in the VSLA treatment significantly increased access to loans.
 
@@ -96,9 +96,9 @@ Example result:
 
 
 
-\- Treatment coefficient: 0.122
+- Treatment coefficient: 0.122
 
-\- P-value: 0.002
+- P-value: 0.002
 
 
 
@@ -108,33 +108,33 @@ The treatment group experienced a statistically significant increase in loan acc
 
 
 
-\---
+---
 
 
 
-\## Technical Skills Demonstrated
+## Technical Skills Demonstrated
 
-\- STATA
+- STATA
 
-\- Applied econometrics
+- Applied econometrics
 
-\- Data cleaning
+- Data cleaning
 
-\- Causal inference
+- Causal inference
 
-\- Clustered standard errors
+- Clustered standard errors
 
-\- Empirical replication
+- Empirical replication
 
-\- Research documentation
-
-
-
-\---
+- Research documentation
 
 
 
-\## Repository Structure
+---
+
+
+
+## Repository Structure
 
 
 
@@ -156,41 +156,41 @@ note/        -> replication notes and documentation
 
 
 
-\---
+---
 
 
 
-\## Replication Status
+## Replication Status
 
 Current progress:
 
-\- Dataset successfully loaded and inspected
+- Dataset successfully loaded and inspected
 
-\- Key variables generated
+- Key variables generated
 
-\- Baseline balance tests explored
+- Baseline balance tests explored
 
-\- Initial treatment effect regression replicated
+- Initial treatment effect regression replicated
 
-\- Clustered standard errors implemented
+- Clustered standard errors implemented
 
 
 
 Next steps:
 
-\- Replicate additional treatment effect tables
+- Replicate additional treatment effect tables
 
-\- Export regression outputs
+- Export regression outputs
 
-\- Reproduce figures and tables
+- Reproduce figures and tables
 
-\- Improve reproducibility workflow
+- Improve reproducibility workflow
 
 ---
 
 ## Treatment Effect Visualization
 
 The figure below presents the estimated treatment effect of participation in Village Savings and Loan Associations (VSLAs) on household loan access.
-![Professional Treatment Effect Plot](professional_treatment_plot.png)
 
+![Professional Treatment Effect Plot](./professional_treatment_plot.png)
 
