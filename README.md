@@ -191,7 +191,6 @@ Next steps:
 ## Treatment Effect Visualization
 
 The figure below presents the estimated treatment effect of participation in Village Savings and Loan Associations (VSLAs) on household loan access.
-
 ![Professional Treatment Effect Plot](professional_treatment_plot.png)
 
 
