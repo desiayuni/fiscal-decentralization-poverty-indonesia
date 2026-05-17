@@ -188,3 +188,7 @@ Across specifications, the treatment effect remained statistically significant a
 The robustness analysis indicates that the estimated treatment effect is relatively stable after controlling for observable household characteristics such as age, education, and female household headship.
 
 These findings are broadly consistent with the original paper’s argument that community-based financial institutions can improve financial inclusion among rural households.
+
+## Replication Report
+
+[Download Replication Report](reports/Desi_Sari_Ayuni_VSLA_Replication_Report.pdf)
